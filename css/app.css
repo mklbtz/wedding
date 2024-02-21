@@ -1,0 +1,68 @@
+
+body {
+	--primary-bg: #273721; /*primary background*/
+	--secondary-bg: #374E2F; /*secondary background*/
+	--primary-fg: #B18969; /*primary foreground*/
+	--secondary-fg: #E7C296; /*secondary foreground*/
+	background-color: var(--primary-bg);
+	color: var(--primary-fg);
+}
+
+.amp-line {
+    display: block;
+    content: "";
+    background-color: var(--primary-fg);
+    height: 0.1rem;
+    margin-top: 1rem;
+}
+@media print, screen and (min-width: 40em) {
+	.amp-line {
+	    display: block;
+	    content: "";
+	    background-color: var(--primary-fg);
+	    height: 0.2rem;
+	    margin-top: 2rem;
+	}
+}
+
+button.outline,
+.button.outline {
+	background-color: transparent;
+	color: var(--primary-fg);
+	outline: 1px solid var(--primary-fg);
+}
+
+/*Modifications*/
+.section {
+  margin-top: 5rem;
+}
+.top-bar {
+	background-color: var(--primary-bg);	
+}
+.callout {
+	background-color: var(--secondary-bg);
+	color: var(--secondary-fg);
+}
+.callout.primary {
+	background-color: #d7ecfa;
+	color: var(--secondary-fg);
+}
+.callout.secondary {
+	background-color: #eaeaea;
+	color: var(--secondary-fg);
+}
+a,
+a:visited {
+	color: var(--secondary-fg);
+}
+a:hover {
+	color: var(--primary-fg);
+}
+
+.callout a,
+.callout a:visited {
+	color: var(--primary-fg);
+}
+.callout a:hover {
+	color: var(--secondary-fg);
+}
