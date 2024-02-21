@@ -2923,7 +2923,9 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+/*  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;*/
+/*  font-family: Consolas, "Liberation Mono", Courier, monospace;*/
+  font-family: Baskerville, serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -3004,7 +3006,7 @@ h6, .h6 {
 a {
   line-height: inherit;
   color: #1779ba;
-  text-decoration: none;
+/*  text-decoration: none;*/
   cursor: pointer;
 }
 a:hover, a:focus {
@@ -3012,6 +3014,9 @@ a:hover, a:focus {
 }
 a img {
   border: 0;
+}
+a.button {
+  text-decoration: none;
 }
 
 hr {
@@ -6859,10 +6864,10 @@ a.thumbnail image {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
-.top-bar,
+/*.top-bar,
 .top-bar ul {
   background-color: #e6e6e6;
-}
+}*/
 .top-bar input {
   max-width: 200px;
   margin-right: 1rem;
