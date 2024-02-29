@@ -8,6 +8,10 @@ body {
 	color: var(--primary-fg);
 }
 
+img.inspiration {
+	width: 220px;
+}
+
 .amp-line {
     display: block;
     content: "";
@@ -65,4 +69,15 @@ a:hover {
 }
 .callout a:hover {
 	color: var(--secondary-fg);
+}
+
+thead,
+tbody,
+tfoot {
+  border: none;
+  background-color: var(--primary-bg);
+}
+tbody tr:nth-child(even) {
+  background-color: var(--secondary-bg);
+  color: var(--secondary-fg);
 }
