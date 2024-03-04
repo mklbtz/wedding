@@ -19,12 +19,13 @@ img.inspiration {
     height: 0.1rem;
     margin-top: 1rem;
 }
+/*Medium+ screen*/
 @media print, screen and (min-width: 40em) {
 	.amp-line {
 	    display: block;
 	    content: "";
 	    background-color: var(--primary-fg);
-	    height: 0.2rem;
+	    height: 0.1rem;
 	    margin-top: 2rem;
 	}
 }
@@ -40,9 +41,18 @@ button.outline,
 .section {
   margin-top: 5rem;
 }
+
 .top-bar {
 	background-color: var(--primary-bg);	
 }
+.top-bar h1,
+.top-bar h2,
+.top-bar h3,
+.top-bar h4,
+.top-bar h5 {
+	margin-bottom: 0;
+}
+
 .callout {
 	background-color: var(--secondary-bg);
 	color: var(--secondary-fg);
@@ -55,6 +65,7 @@ button.outline,
 	background-color: #eaeaea;
 	color: var(--secondary-fg);
 }
+
 a,
 a:visited {
 	color: var(--secondary-fg);
@@ -80,4 +91,8 @@ tfoot {
 tbody tr:nth-child(even) {
   background-color: var(--secondary-bg);
   color: var(--secondary-fg);
+}
+table ul,
+table ol {
+	margin-bottom: 0;
 }
