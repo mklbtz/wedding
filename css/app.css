@@ -12,22 +12,20 @@ img.inspiration {
 	width: 220px;
 }
 
+.ali-and-michael h1 {
+	margin-bottom: 0;
+}
+.ali-and-michael {
+	margin-bottom: 0.5rem;
+}
+.amp.grid-x {
+	align-items: center;
+}
 .amp-line {
     display: block;
     content: "";
     background-color: var(--primary-fg);
     height: 0.1rem;
-    margin-top: 1rem;
-}
-/*Medium+ screen*/
-@media print, screen and (min-width: 40em) {
-	.amp-line {
-	    display: block;
-	    content: "";
-	    background-color: var(--primary-fg);
-	    height: 0.1rem;
-	    margin-top: 2rem;
-	}
 }
 
 button.outline,
