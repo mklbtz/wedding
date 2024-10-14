@@ -87,8 +87,8 @@ tfoot {
   background-color: var(--primary-bg);
 }
 tbody tr:nth-child(even) {
-  background-color: var(--secondary-bg);
-  color: var(--secondary-fg);
+  background-color: var(--primary-bg);
+  color: var(--primary-fg);
 }
 table ul,
 table ol {
