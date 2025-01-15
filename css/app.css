@@ -1,8 +1,8 @@
 
 body {
 	--primary-bg: #273720; /*primary background*/
-	--secondary-bg: #374E2F; /*secondary background*/
-	--primary-fg: #B18969; /*primary foreground*/
+	--secondary-bg: #2C3F25; /*secondary background*/
+	--primary-fg: #D2A27C; /*primary foreground*/
 	--secondary-fg: #E7C296; /*secondary foreground*/
 	background-color: var(--primary-bg);
 	color: var(--primary-fg);
@@ -33,6 +33,12 @@ button.outline,
 	background-color: transparent;
 	color: var(--primary-fg);
 	outline: 1px solid var(--primary-fg);
+}
+
+button.outline:hover, button.outline:focus,
+.button.outline:hover, .button.outline:focus {
+	color: var(--secondary-fg);
+	outline: 1px solid var(--secondary-fg);
 }
 
 /*Modifications*/
@@ -84,13 +90,19 @@ thead,
 tbody,
 tfoot {
   border: none;
-  background-color: var(--primary-bg);
+  background-color: unset;
 }
 tbody tr:nth-child(even) {
-  background-color: var(--primary-bg);
+  background-color: unset;
   color: var(--primary-fg);
 }
 table ul,
 table ol {
 	margin-bottom: 0;
+}
+
+.prevent-select {
+  user-select: none; /* Standard syntax */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
 }
