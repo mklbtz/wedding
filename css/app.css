@@ -59,14 +59,21 @@ button.outline:hover, button.outline:focus,
 
 .callout {
 	background-color: var(--secondary-bg);
-	color: var(--secondary-fg);
+	color: var(--primary-fg);
 }
 .callout.primary {
 	background-color: #d7ecfa;
-	color: var(--secondary-fg);
+	color: var(--primary-fg);
 }
 .callout.secondary {
 	background-color: #eaeaea;
+	color: var(--primary-fg);
+}
+.callout h1,
+.callout h2,
+.callout h3,
+.callout h4,
+.callout h5 {
 	color: var(--secondary-fg);
 }
 
